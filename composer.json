@@ -1,0 +1,36 @@
+{
+  "name": "lornkarios/yandex-turbo-pages",
+  "type": "library",
+  "description": "PHP7 Yandex Turbo Pages RSS feed generator",
+  "keywords": [
+    "yandex",
+    "turbo",
+    "rss",
+    "generator",
+    "writer",
+    "feed",
+    "php"
+  ],
+  "version": "v1.0",
+  "homepage": "https://github.com/lornkarios/yandex-turbo-pages",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Kovalev",
+      "email": "lornkar@mail.ru",
+      "homepage": "https://github.com/lornkarios"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-mbstring": "*",
+    "ext-simplexml": "*",
+    "ext-libxml": "*",
+    "ext-dom": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "lornkarios\\YandexTurboPages\\": "src/"
+    }
+  }
+}
